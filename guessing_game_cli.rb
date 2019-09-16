@@ -13,9 +13,9 @@ end
 def compare(stored_number, guess)
     if guess == "exit"
       puts "Goodbye!" 
-    elsif stored_number != guess
+    elsif stored_number != guess.to_i
       puts "Sorry! The computer guessed #{stored_number}."
-    elsif stored_number == guess 
+    elsif stored_number == guess.to_i 
       puts "You guessed the correct number!"
   end
 end
