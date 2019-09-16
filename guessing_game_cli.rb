@@ -7,7 +7,7 @@ def prompt_user
 end
 
 def guess_number
-  gets.chomp
+  gets
 end
 
 def compare(stored_number, guess)
