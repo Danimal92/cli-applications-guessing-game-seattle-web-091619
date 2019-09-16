@@ -21,7 +21,7 @@ def compare(stored_number, guess)
 end
 
 def run_guessing_game
-  prompt_user
+  
   input = guess_number
   compare(random_number,input)
 end
