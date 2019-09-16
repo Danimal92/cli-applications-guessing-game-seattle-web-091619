@@ -3,7 +3,7 @@ def random_number
 end
 
 def prompt_user
-  "Guess a number between 1 and 6"
+  puts "Guess a number between 1 and 6"
 end
 
 def guess_number
@@ -22,5 +22,6 @@ end
 
 def run_guessing_game
   prompt_user
-  compare(random_number,guess_number)
+  input = guess_number
+  compare(random_number,input)
 end
