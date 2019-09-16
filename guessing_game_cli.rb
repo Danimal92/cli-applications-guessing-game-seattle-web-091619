@@ -19,3 +19,8 @@ def compare(stored_number, guess)
       puts "Goodbye!"
   end
 end
+
+def run_guessing_game
+  prompt_user
+  compare(random_number,guess_number)
+end
